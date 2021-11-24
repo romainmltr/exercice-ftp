@@ -1,0 +1,58 @@
+@import "scss/abstract/reset";
+@import "scss/abstract/mixin";
+@import "scss/abstract/variable";
+@import "scss/layout/header";
+@import "scss/layout/body";
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(/font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins-medium;
+    src: url(/font/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: poppins-Semibold;
+    src: url(/font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(/font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: productSans-Medium;
+    src: url(/font/ProductSans-Medium.woff);
+}
+
+@font-face {
+    font-family: volkhov;
+    src: url(/font/Volkhov-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: OpenSans-italic;
+    src: url(/font/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(/font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-semiBold;
+    src: url(/font/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(/font/OpenSans-Bold.ttf);
+}
+
+
+

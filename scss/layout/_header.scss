@@ -1,0 +1,192 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+#img-back{
+    background-image: url("/images/Decore.png");
+    position:absolute;
+    width: 100px;
+    height: 200px;
+    min-width: 500px;
+    @include xl{
+        
+        display: none;
+    }
+}
+
+#img-purple-back{
+    background-image: url("/images/Ellipse\ 90.png");
+    position: absolute;
+    width: 50%;
+    min-height: 100%;
+    left: -30%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    @include xl{
+        
+        display: none;
+    }
+}
+nav {
+    display: flex;
+    justify-content: center;
+    font-style: none;
+    list-style: none;
+
+ }
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 47px;
+    font-style: none;
+    list-style: none;
+    margin-left: 10%;
+    font-family: OpenSans;
+    @include xl{
+        display: flex;
+    }
+    
+}
+nav ul a{
+    color: #212832;
+    font-size: 27px;
+    margin-right:60px ;
+    margin-top: 130px;
+    font-style: none;
+    list-style: none; 
+    text-decoration:none; 
+    cursor: pointer;
+    @include xl{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-top: 50px;
+    }
+    span
+    {
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+}
+#logo{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 130px;
+    @include xl{
+        display: flex;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+}
+
+
+section.part-1{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap:nowrap;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    
+    .img-women{
+            
+            margin-top: 10px;
+            position: relative;
+            @include xl{
+        
+                display: none;
+            }
+        }
+    
+    h2{
+        font-size: 20px;
+        margin-bottom: 50px;
+        color:#DF6951;
+        font-family:poppins-bold;
+        
+    }
+    h1{
+        font-size: 84px;
+        margin-bottom: 60px;
+        font-family: volkhov;
+        
+        
+        span{
+            background-image: url("/images/Rectangle\ 36.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 10px;
+            width: 10px;
+        }
+    }
+    p{
+        font-size: 16px;
+        font-family: poppins-medium;
+        color:#5E6282;
+        @include xl{
+        
+        position: absolute;
+        left: 25rem;
+        top: 30%;
+        font-size: 35px;
+        }
+    }
+}
+
+.buttom{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+    font-family: poppins-medium;
+    @include xl{
+        display: flex;
+        }
+
+    .buttom-1{
+        color:white;
+        background-color: #F1A501;
+        padding: 2%;
+        border-radius: 5px;
+        
+}
+    .buttom-2{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        a{
+            margin-left: -20%;
+
+        }
+        }
+    }
+
+
+.text-part-1{
+    padding-left: 5%;
+    @include xl{
+        
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+

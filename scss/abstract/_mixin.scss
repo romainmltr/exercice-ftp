@@ -1,0 +1,101 @@
+@mixin xl {
+    @media screen and (max-width: 799px)
+        {
+            @content;
+    }
+        
+}
+
+
+@mixin bg-center {
+    display: grid;
+    @include xl{
+        margin-top: 10px;
+        font-size: 25px;
+        }
+    h2{
+        @include xl{
+            font-size: 4rem;
+            margin-top: 10px;
+            }
+        justify-items: center;
+        grid-column: center;
+        display: grid;
+        color:red;
+        font-size: 4rem;
+        margin-right: 30%;
+        margin-bottom: 35px;
+        color: #1E1D4C;
+        font-family:OpenSans-semiBold;
+    }
+    p{
+        @include xl{
+            font-size: 25px;
+            }
+        justify-items: center;
+        grid-column: center;
+        margin-left: 25px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-family:OpenSans;
+        color: #5E6282;
+    }
+    img{
+        justify-content: center;
+        margin-left: 29%;
+        grid-row: 1;
+        grid-column: center;
+        @include xl{
+            height: 5em;
+        }
+    }
+}
+
+@mixin center-book {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    font-family: poppins-medium;
+    
+
+    h1{
+        margin-left: 17px;
+        font-size: 18px;
+        color:#5E6282;
+        font-family: poppins-bold;
+        @include xl{
+            font-size: 30px;
+        }
+
+    }
+}
+
+
+@mixin center-footer {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 17%;
+        margin-left: 85px;
+        h1{
+            font-size: 24px;
+            margin-bottom: 33px;
+            color: #080809;
+            font-family: poppins-bold;
+        }
+        ul{
+            font-size: 18px;
+            display: flex;
+            flex-direction: column;
+            line-height: 1em;
+            color: #5E6282;
+            font-family: poppins-medium;
+            @include xl{
+                font-size: 30px;
+            }
+        }
+    }
+
+
